@@ -1,0 +1,42 @@
+ul li:nth-child(1){
+    color:blue;
+  }
+  
+
+li{
+    background: lightblue;
+    border-radius: 12px;
+    margin: 5px;
+    width: fit-content;
+    padding: 8px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ 
+li:hover, li a :hover{
+    background: yellow;
+    color: white;
+
+}
+nav::before{
+    content: ' This is a pseudo element';
+    padding: 10px;
+    color: white;
+    display: block;
+    height: 50px;
+    width: 200px;
+    border-radius: 12px;
+    background: black;
+
+
+}
+
+li::before{
+    content: '-->';
+}
+
+li::after{
+    content: '-->';
+}
